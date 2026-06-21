@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-06-07T01:11:57.483029",
+  "plant_nodes": 377,
+  "compound_nodes": 2250,
+  "bacterium_nodes": 18,
+  "plant_compound_edges": 2182,
+  "compound_bact_edges": 2250,
+  "active_edges": 2038,
+  "inactive_edges": 212,
+  "edges_with_mic": 31,
+  "node_feature_dims": {
+    "plant": 14,
+    "compound": 137,
+    "bacterium": 6
+  },
+  "edge_types": [
+    "plant -[PRODUCES]-> compound",
+    "compound -[ACTIVE_AGAINST]-> bacterium",
+    "compound -[INACTIVE_AGAINST]-> bacterium"
+  ],
+  "next_steps": [
+    "Train HGT: from torch_geometric.nn import HGTConv",
+    "Train RGCN: from torch_geometric.nn import RGCNConv",
+    "Link prediction task: predict compound->bacterium edges",
+    "Node classification: compound.label (active/inactive)"
+  ]
+}

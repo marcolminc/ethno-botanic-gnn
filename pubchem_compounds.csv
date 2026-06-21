@@ -1,0 +1,5 @@
+genus,cid,smiles,molecular_weight,inchi_key,source
+Diospyros,101293601,,346.4,HYXJAVXHSQPNCA-UHFFFAOYSA-N,PubChem_Direct
+Strychnos,441071,,334.4,QMGVPVSNSZLJIA-FVWCLLPLSA-N,PubChem_Direct
+Saba,126931,,320.3,HLIZYGZLFWJZLX-UHFFFAOYSA-N,PubChem_Direct
+Senna,73111,,862.7,IPQVTOJGNYVQEO-KGFNBKMBSA-N,PubChem_Direct
