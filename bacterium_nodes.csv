@@ -1,0 +1,19 @@
+node_id,name,gram,eskape,card_aro,priority,n_active,n_inactive,feat_gram_pos,feat_gram_neg,feat_gram_neu,feat_gram_mix,feat_eskape,feat_priority
+B_0,multiple,mixed,0,,low,1972,204,0,0,0,1,0,0.0
+B_1,E. coli,negative,1,ARO:3000440,critical,14,4,0,1,0,0,1,1.0
+B_2,S. aureus,positive,1,ARO:3000552,critical,28,3,1,0,0,0,1,1.0
+B_3,Salmonella typhi,negative,0,ARO:3000601,high,2,0,0,1,0,0,0,0.6666666666666666
+B_4,Klebsiella pneumoniae,negative,1,ARO:3000441,critical,3,0,0,1,0,0,1,1.0
+B_5,Staphylococcus aureus,positive,1,ARO:3000552,critical,6,0,1,0,0,0,1,1.0
+B_6,Pseudomonas aeruginosa,negative,1,ARO:3000097,critical,3,0,0,1,0,0,1,1.0
+B_7,Plasmodium falciparum,mixed,0,,low,1,0,0,0,0,1,0,0.0
+B_8,Escherichia coli,negative,1,ARO:3000440,critical,3,0,0,1,0,0,1,1.0
+B_9,Mycobacterium tuberculosis,neutral,0,ARO:3000404,critical,1,0,0,0,1,0,0,1.0
+B_10,Streptococcus pneumoniae,positive,0,ARO:3000443,high,1,0,1,0,0,0,0,0.6666666666666666
+B_11,MRSA,positive,1,ARO:3000552,critical,3,0,1,0,0,0,1,1.0
+B_12,K. pneumoniae,negative,1,ARO:3000441,critical,2,1,0,1,0,0,1,1.0
+B_13,P. aeruginosa,negative,1,ARO:3000097,critical,3,0,0,1,0,0,1,1.0
+B_14,S. typhi,negative,0,ARO:3000601,high,1,0,0,1,0,0,0,0.6666666666666666
+B_15,M. tuberculosis,neutral,0,ARO:3000404,critical,1,0,0,0,1,0,0,1.0
+B_16,S. aureus (MRSA),mixed,0,,low,1,0,0,0,0,1,0,0.0
+B_17,Staphylococcus spp.,positive,0,,high,1,0,1,0,0,0,0,0.6666666666666666
