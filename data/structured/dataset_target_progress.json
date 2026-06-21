@@ -1,0 +1,10 @@
+{
+  "target_training_rows": 100000,
+  "current_structured_training_rows": 2258,
+  "compound_master_rows": 17691,
+  "activity_records_rows": 10307,
+  "total_rows_counted_across_source_tabular_files": 49212,
+  "gap_to_100k_training_rows": 97742,
+  "canonical_training_source": "gnn_dataset_flat(4).csv",
+  "notes": "Structured directory prepared from provided local files; additional curated/harvested records are required to reach 100k training rows."
+}

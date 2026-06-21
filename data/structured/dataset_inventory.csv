@@ -1,0 +1,27 @@
+file_name,file_type,rows
+ANPDB.csv,csv,11448
+MINF-39-2000163-s003.xlsx,xlsx,
+MINF-39-2000163-s004.csv,csv,2
+MINF-39-2000163-s005.csv,csv,2
+MINF-39-2000163-s006.csv,csv,5440
+bacterium_nodes.csv,csv,18
+chembl_amr_activities.csv,csv,509
+compound_nodes.csv,csv,2250
+edges.csv,csv,7548
+edges_compound_bacterium.csv,csv,2250
+edges_plant_compound.csv,csv,2182
+gnn_dataset_flat(1).csv,csv,2286
+gnn_dataset_flat(2).csv,csv,2286
+gnn_dataset_flat(3).csv,csv,2250
+gnn_dataset_flat(4).csv,csv,2258
+gnn_dataset_flat.csv,csv,2286
+graph_summary.json,json,
+nodes_compounds.csv,csv,5784
+plant_nodes.csv,csv,377
+pubchem-smiles.txt,txt,
+pubchem_compounds (1).csv,csv,4
+pubchem_compounds.csv,csv,4
+pubchem_smiles (1).csv,csv,0
+pubchem_smiles.csv,csv,0
+pubmed_tanzania_papers.csv,csv,21
+pubmed_tanzania_studies.csv,csv,7

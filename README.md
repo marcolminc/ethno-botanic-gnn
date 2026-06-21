@@ -39,6 +39,10 @@ from 377 plant species across 35 East African genera.
 |------|---------|-------------|
 | `data/gnn_ready/gnn_dataset_flat.csv` | 2,258 | Main training table |
 | `data/gnn_ready/dataset_summary.json` | -- | Dataset stats |
+| `data/structured/training/gnn_training_records.csv` | 2,258 | Canonical structured training records |
+| `data/structured/training/compound_master.csv` | 17,691 | Unified compound registry across local sources |
+| `data/structured/training/activity_records.csv` | 10,307 | Normalized activity observations |
+| `data/structured/dataset_target_progress.json` | -- | Progress to 100k-row training goal |
 | `data/hetero/plant_nodes.csv` | 377 | Plant species nodes |
 | `data/hetero/compound_nodes.csv` | 2,250 | Compound nodes (137-dim features) |
 | `data/hetero/bacterium_nodes.csv` | 18 | Bacterium nodes (6-dim features) |
