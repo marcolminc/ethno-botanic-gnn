@@ -1,0 +1,5 @@
+Model,ROC-AUC (±std),PR-AUC,F1,Accuracy
+gcn,nan ±nan,nan,0.8000,0.8000
+gat,nan ±nan,nan,0.4750,0.4462
+mpnn,nan ±nan,nan,0.8148,0.8077
+fp-mlp,nan ±nan,nan,0.2533,0.2308

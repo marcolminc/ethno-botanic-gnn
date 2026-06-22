@@ -1,0 +1,18 @@
+name,node_id,node_type
+Staphylococcus aureus,B_0,bacterium
+Escherichia coli,B_1,bacterium
+Salmonella typhi,B_2,bacterium
+Plasmodium falciparum,B_3,bacterium
+Mycobacterium tuberculosis,B_4,bacterium
+Klebsiella pneumoniae,B_5,bacterium
+Streptococcus pneumoniae,B_6,bacterium
+Pseudomonas aeruginosa,B_7,bacterium
+Homo sapiens,B_8,bacterium
+S. aureus,B_9,bacterium
+E. coli,B_10,bacterium
+K. pneumoniae,B_11,bacterium
+Salmonella spp.,B_12,bacterium
+S. typhi,B_13,bacterium
+M. tuberculosis,B_14,bacterium
+P. aeruginosa,B_15,bacterium
+S. pneumoniae,B_16,bacterium

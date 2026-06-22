@@ -1,0 +1,25 @@
+name,country,compound_class,node_id,node_type
+Warburgia ugandensis,Kenya/Uganda,,P_0,plant
+Maesa lanceolata,Ethiopia/Uganda,,P_1,plant
+Combretum caffrum,Tanzania,,P_2,plant
+Peganum harmala,Ethiopia,,P_3,plant
+Plumbago zeylanica,Kenya/Tanzania,,P_4,plant
+Zanthoxylum chalybeum,Kenya,,P_5,plant
+Erythrina abyssinica,Uganda/Kenya,,P_6,plant
+Acacia nilotica,Kenya/Ethiopia,,P_7,plant
+Ocimum gratissimum,Kenya/Tanzania,,P_8,plant
+Vernonia amygdalina,Uganda/Kenya,,P_9,plant
+Thymus schimperi,Ethiopia,,P_10,plant
+Terminalia brownii,Kenya,,P_11,plant
+synthetic/natural,N/A,,P_12,plant
+Combretum molle,Tanzania/Kenya,tannins/flavonoids,P_13,plant
+Harrisonia abyssinica,Kenya/Tanzania,limonoids/alkaloids,P_14,plant
+Hagenia abyssinica,Ethiopia,phloroglucinols,P_15,plant
+Dodonaea angustifolia,Ethiopia,flavonoids,P_16,plant
+Moringa oleifera,Tanzania/Kenya,glucosinolates/isothiocyanates,P_17,plant
+Prunus africana,Kenya/Uganda/Tanzania,phytosterols/triterpenoids,P_18,plant
+Boswellia papyrifera,Ethiopia,triterpenoids/boswellic acids,P_19,plant
+Artemisia afra,Kenya/Tanzania,monoterpenes/sesquiterpenes,P_20,plant
+Carica papaya,East Africa (widespread),alkaloids/phenolics,P_21,plant
+Psidium guajava,East Africa (widespread),flavonoids/tannins,P_22,plant
+Azadirachta indica,East Africa (widespread),limonoids/triterpenoids,P_23,plant

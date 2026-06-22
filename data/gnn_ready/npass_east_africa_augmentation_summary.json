@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-06-21T22:34:06",
+  "source_files": [
+    "NPASS3.0_naturalproducts_species_pair.txt",
+    "NPASS3.0_naturalproducts_species_info.txt",
+    "NPASS3.0_naturalproducts_generalinfo.txt",
+    "NPASS3.0_naturalproducts_structure.txt"
+  ],
+  "region": "East Africa",
+  "raw_species_pair_rows": 223,
+  "curated_rows": 29,
+  "unique_plants": 5,
+  "unique_compounds": 29,
+  "missing_structure_or_species": 194
+}

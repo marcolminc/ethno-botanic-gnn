@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-06-22T00:25:52",
+  "source": "gnn_dataset_flat.csv + delta from data_fetched/trials/gnn_dataset_flat(3).csv",
+  "filter": "East Africa countries + antibacterial label + graphable compound/bacterium nodes",
+  "records": 2110,
+  "added_rows": 1990,
+  "unique_compounds": 2029,
+  "unique_plants": 355,
+  "unique_bacteria": 15,
+  "plant_nodes": 355,
+  "compound_nodes": 2033,
+  "bacterium_nodes": 15
+}

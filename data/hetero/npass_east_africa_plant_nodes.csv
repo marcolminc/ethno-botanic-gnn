@@ -1,0 +1,6 @@
+node_id,name,country,n_compounds,n_active,n_inactive,active_ratio,feat_region,feat_count_norm
+NP_P_0,Berchemia discolor,East Africa,9,0,0,0,"0,0,0,0,0,0,0,0,0,0,1,1,0",0
+NP_P_1,Carissa edulis,East Africa,1,0,0,0,"0,0,0,0,0,0,0,0,0,0,1,1,0",0
+NP_P_2,Erythrina abyssinica,East Africa,16,0,0,0,"0,0,0,0,0,0,0,0,0,0,1,1,0",0
+NP_P_3,Symphonia globulifera,East Africa,1,0,0,0,"0,0,0,0,0,0,0,0,0,0,1,1,0",0
+NP_P_4,Trichilia rubescens,East Africa,2,0,0,0,"0,0,0,0,0,0,0,0,0,0,1,1,0",0
