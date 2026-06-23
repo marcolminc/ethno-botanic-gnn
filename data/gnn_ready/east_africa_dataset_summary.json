@@ -5,5 +5,13 @@
   "n_existing_plants_found": 376,
   "n_compounds_added": 0,
   "n_edges_added": 0,
-  "notes": "Plant extracts without isolated compounds; new plant nodes added for reference"
+  "notes": "Plant extracts without isolated compounds; new plant nodes added for reference",
+  "merges": [
+    {
+      "source": "LOTUS",
+      "n_new_compounds": "auto",
+      "n_new_edges": 1370,
+      "n_new_flat_rows": 1409
+    }
+  ]
 }
