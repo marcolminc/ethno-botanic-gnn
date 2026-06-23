@@ -1,8 +1,9 @@
 {
-  "merged_from": "TRIALS",
-  "n_new_plants": 20,
-  "n_new_compounds": 149,
-  "n_new_edges": 149,
-  "n_reused_plants": 52,
-  "n_reused_compounds": 0
+  "merged_from": "PDF",
+  "filename": "Antibacterial_activity_of_East_African_m.pdf",
+  "n_new_plants": 3,
+  "n_existing_plants_found": 376,
+  "n_compounds_added": 0,
+  "n_edges_added": 0,
+  "notes": "Plant extracts without isolated compounds; new plant nodes added for reference"
 }
