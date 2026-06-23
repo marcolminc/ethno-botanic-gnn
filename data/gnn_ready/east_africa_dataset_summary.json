@@ -1,6 +1,8 @@
 {
-  "merged_from": "NPASS",
-  "n_new_plants": 4,
-  "n_new_compounds": 27,
-  "n_new_edges": 29
+  "merged_from": "TRIALS",
+  "n_new_plants": 20,
+  "n_new_compounds": 149,
+  "n_new_edges": 149,
+  "n_reused_plants": 52,
+  "n_reused_compounds": 0
 }
