@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-06-23",
+  "dataset_name": "East Africa Antibacterial GNN Dataset (Merged)",
+  "status": "VALIDATED - PASSED ALL CHECKS",
+  "data_statistics": {
+    "flat_csv_rows": 2139,
+    "compound_nodes": 2209,
+    "plant_nodes": 382,
+    "bacterium_nodes": 15,
+    "plant_compound_edges": 2210,
+    "compound_bacterium_edges": 2032,
+    "total_unique_smiles": 2209
+  },
+  "data_quality": {
+    "smiles_validity": {
+      "valid_smiles": 2209,
+      "invalid_smiles": 0,
+      "duplicate_smiles": 0,
+      "coverage_percent": 100.0
+    },
+    "node_integrity": {
+      "unique_compound_ids": 2209,
+      "unique_plant_ids": 382,
+      "unique_bacterium_ids": 15,
+      "duplicate_compound_ids": 0,
+      "duplicate_plant_ids": 0,
+      "duplicate_bacterium_ids": 0,
+      "status": "PASS"
+    },
+    "edge_integrity": {
+      "plant_compound_edges": 2210,
+      "invalid_plant_compound_edges": 0,
+      "compound_bacterium_edges": 2032,
+      "invalid_compound_bacterium_edges": 0,
+      "status": "PASS"
+    },
+    "feature_completeness": {
+      "feat_mw": "100% complete",
+      "feat_logp": "100% complete",
+      "feat_hbd": "100% complete",
+      "feat_hba": "100% complete",
+      "feat_tpsa": "100% complete",
+      "feat_rb": "100% complete",
+      "feat_natoms": "100% complete",
+      "feat_nrings": "100% complete (fixed 27 missing)",
+      "feat_naromatic": "100% complete (fixed 27 missing)",
+      "feat_fp128": "100% complete (fixed 27 missing)",
+      "status": "PASS"
+    },
+    "labels_and_missing_values": {
+      "total_flat_rows": 2139,
+      "label_distribution": {
+        "antibacterial": 2139
+      },
+      "missing_smiles": 0,
+      "missing_country": 0,
+      "missing_compound_id": 0,
+      "status": "PASS"
+    }
+  },
+  "data_sources": {
+    "flat_csv_sources": {
+      "ANPDB": 1972,
+      "Literature": 105,
+      "NPASS": 34,
+      "NAPRALERT": 18,
+      "ANPDB/EANPDB": 10
+    },
+    "compound_node_sources": {
+      "ANPDB": 2108,
+      "Literature": 28,
+      "NAPRALERT": 26,
+      "NPASS": 32,
+      "ANPDB/EANPDB": 11,
+      "CARD": 3,
+      "Curated-Negatives": 1
+    }
+  },
+  "merges_applied": [
+    {
+      "source": "NPASS",
+      "description": "NPASS East Africa augmentation",
+      "plants_added": 4,
+      "compounds_added": 27,
+      "edges_added": 29
+    },
+    {
+      "source": "TRIALS",
+      "description": "Trial dataset plant-compound relationships",
+      "plants_added": 20,
+      "compounds_added": 149,
+      "edges_added": 149
+    },
+    {
+      "source": "PDF",
+      "description": "Antibacterial activity East African medicinal plants study",
+      "plants_added": 3,
+      "compounds_added": 0,
+      "edges_added": 0
+    }
+  ],
+  "validation_checks": {
+    "row_count_consistency": "PASS",
+    "smiles_validity": "PASS",
+    "node_id_uniqueness": "PASS",
+    "edge_referential_integrity": "PASS",
+    "feature_completeness": "PASS (27 missing fixed)",
+    "label_alignment": "PASS",
+    "data_type_correctness": "PASS"
+  },
+  "critical_issues": 0,
+  "warnings": 0,
+  "recommendations": [
+    "Dataset is ready for GNN model training",
+    "All features are complete and valid",
+    "All node IDs and edges are consistent",
+    "All SMILES strings are valid and unique"
+  ],
+  "next_steps": [
+    "Prepare data loaders for PyTorch/DGL",
+    "Split into train/validation/test sets",
+    "Begin GNN model architecture development",
+    "Configure heterogeneous graph construction"
+  ]
+}

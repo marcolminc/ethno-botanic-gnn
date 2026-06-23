@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-06-23",
+  "checks": {
+    "row_counts": {
+      "flat_rows": 2139,
+      "compound_nodes": 2209,
+      "plant_nodes": 382,
+      "bacterium_nodes": 15,
+      "comp_bact_edges": 2032,
+      "plant_comp_edges": 2210
+    },
+    "smiles": {
+      "valid": 2209,
+      "invalid_or_empty": 0,
+      "unique_smiles": 2209,
+      "duplicate_smiles_count": 0
+    },
+    "node_ids": {
+      "compound_ids": 2209,
+      "plant_ids": 382,
+      "bacterium_ids": 15,
+      "duplicate_compound_ids": 0,
+      "duplicate_plant_ids": 0,
+      "duplicate_bacterium_ids": 0
+    },
+    "edges": {
+      "plant_compound_edges": 2210,
+      "invalid_plant_compound_edges": 0,
+      "compound_bacterium_edges": 2032,
+      "invalid_compound_bacterium_edges": 0
+    },
+    "features": {
+      "feat_mw": {
+        "missing": 0,
+        "invalid": 0
+      },
+      "feat_logp": {
+        "missing": 0,
+        "invalid": 0
+      },
+      "feat_hbd": {
+        "missing": 0,
+        "invalid": 0
+      },
+      "feat_hba": {
+        "missing": 0,
+        "invalid": 0
+      },
+      "feat_tpsa": {
+        "missing": 0,
+        "invalid": 0
+      },
+      "feat_rb": {
+        "missing": 0,
+        "invalid": 0
+      },
+      "feat_natoms": {
+        "missing": 0,
+        "invalid": 0
+      },
+      "feat_nrings": {
+        "missing": 0,
+        "invalid": 0
+      },
+      "feat_naromatic": {
+        "missing": 0,
+        "invalid": 0
+      },
+      "feat_fp128": {
+        "missing": 0,
+        "invalid": 0
+      }
+    },
+    "labels_and_missing": {
+      "label_distribution": {
+        "1": 2139
+      },
+      "missing_smiles": 0,
+      "missing_country": 0,
+      "missing_compound_id": 0
+    },
+    "sources": {
+      "flat": {
+        "ANPDB/EANPDB": 10,
+        "Literature": 105,
+        "ANPDB": 1972,
+        "NAPRALERT": 18,
+        "NPASS": 34
+      },
+      "compounds": {
+        "ANPDB": 2108,
+        "Literature": 28,
+        "Curated-Negatives": 1,
+        "ANPDB/EANPDB": 11,
+        "NPASS": 32,
+        "NAPRALERT": 26,
+        "CARD": 3
+      }
+    }
+  }
+}
